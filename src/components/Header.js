@@ -9,12 +9,14 @@ const Header = () => {
           <li>
             <a href="/">home</a>
           </li>
-          <li>
-            <a href="/one">One</a>
-          </li>
-          <li>
-            <a href="/one/fast">fast</a>
-          </li>
+          <div className="container-multiple-links">
+            <li>
+              <a href="/one">One</a>
+            </li>
+            <li>
+              <a href="/one/fast">fast</a>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>
