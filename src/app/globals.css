@@ -1,0 +1,41 @@
+:root {
+  --font-family: Arial, sans-serif;
+  --primary-color: #f0f0f0;
+  --secondary-color: #333;
+  --tertiary-color: #f0f0f0;
+  --quaternary-color: #333;
+  --quinary-color: #f0f0f0;
+  --senary-color: #333;
+  --septenary-color: #f0f0f0;
+  --octonary-color: #333;
+  --nonary-color: #f0f0f0;
+  --denary-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
